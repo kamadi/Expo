@@ -22,7 +22,7 @@ public class VisitAdapter extends RecyclerView.Adapter<VisitAdapter.VisitRecycle
 
     @Override
     public VisitRecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View root = inflater.inflate(R.layout.visit_item, parent, false);
+        View root = inflater.inflate(R.layout.list_item_visit, parent, false);
         VisitRecyclerViewHolder holder = new VisitRecyclerViewHolder(root);
         return holder;
     }

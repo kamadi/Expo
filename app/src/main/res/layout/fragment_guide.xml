@@ -13,7 +13,7 @@
         android:background="@color/white_text"
         android:drawableLeft="@drawable/ic_business_black_24dp"
         android:paddingLeft="5dp"
-        android:text="@string/museum" />
+        android:text="@string/museums" />
 
     <Button
         android:id="@+id/cinema"

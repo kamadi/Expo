@@ -22,19 +22,27 @@
     <string name="text_third_activity">Hi Its Third Activity</string>
     <string name="text_dismiss">Dismiss</string>
     <string name="title_activity_fourth">Mr Four</string>
-    <string name="museum">Музей</string>
+    <string name="museums">Музеи</string>
     <string name="cinemas">Кинотеатры</string>
     <string name="theaters">Театры</string>
     <string name="clubs">Дома культуры и клубы</string>
     <string name="showrooms">Выставочные залы</string>
     <string name="pharmacies">Аптеки</string>
     <string name="hospital">Больницы</string>
+    <string name="view_in_map">Посмотреть на карте</string>
+    <string name="template">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis vestibulum auctor. Phasellus in molestie mi. Vestibulum et elit vitae ligula pretium mollis ut sodales arcu. Aliquam erat volutpat. Donec sed velit vitae mi maximus convallis ac eu metus. Fusce at hendrerit quam. Sed quam risus, fermentum sit amet tortor sit amet, varius bibendum libero. Nulla facilisi. Aliquam tortor tortor, tincidunt sed feugiat at, volutpat rutrum neque. Ut et diam ut leo vulputate sodales et vel magna. Integer ultrices dapibus nulla, sed pellentesque quam sagittis nec.
+        Phasellus enim leo, posuere eu maximus eu, vulputate at lectus. Cras ac est facilisis, placerat elit nec, accumsan enim. Maecenas viverra lacus neque, non volutpat dolor convallis in. Suspendisse sed pulvinar mi, at molestie odio. Integer fringilla id dolor at consectetur. Suspendisse a urna magna. Nulla facilisi. Maecenas fermentum enim vitae convallis interdum. Cras ut blandit nibh, sed placerat nisi. Quisque bibendum volutpat felis, quis pellentesque libero maximus eu. Donec erat justo, varius in nunc vel, convallis pretium enim. Mauris in odio mattis, pharetra sapien ac, ullamcorper mauris.
+    </string>
     <string-array name="tabs">
         <item name="tab1">Мероприятии</item>
         <item name="tab2">Визит</item>
         <item name="tab3">Карта</item>
         <item name="tab4">Гид</item>
     </string-array>
-    <string name="title_activity_maps">Map</string>
+
     <string name="about">О нас</string>
+    <string name="title_activity_museum_info">MuseumInfoActivity</string>
+    <string name="title_activity_even_info">EvenInfoActivity</string>
+
 </resources>

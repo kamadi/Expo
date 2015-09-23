@@ -23,4 +23,5 @@
     <dimen name="list_item_cover_height">450dp</dimen>
     <dimen name="list_item_height">80dp</dimen>
     <dimen name="list_item_padding">10dp</dimen>
+    <dimen name="item_detail">17sp</dimen>
 </resources>
