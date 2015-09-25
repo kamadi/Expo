@@ -8,7 +8,8 @@
     "Geoposition": "51.158111,71.428659",
     "Phone": "+7(7172)44-02-61",
     "Website": "www.msi-astana.kz",
-    "Image": "image.jpg"
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "2",
@@ -18,28 +19,33 @@
     "Building": "20",
     "Geoposition": "51.171429,71.423521",
     "Phone": "+7(7172)32-84-67",
-    "Image": "image.jpg"
+    "Website": "www.musei.kz",
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "3",
     "FullName": "ГККП \"Музейно-мемориальный комплекс жертв политических  репрессий и тоталитаризма \"АЛЖИР\"",
     "Region": "Акмолинская ",
-    "Region_district": "Целиноградский ",
-    "Village": "Акмол",
+    "Street": "Целиноградский ",
+    "Building": "Акмол",
     "Geoposition": "51.064260,70.975513",
-    "Phone": "+7(7172)54-26-69, +7(7172)48-37-74",
-    "Image": "image.jpg"
+    "Phone": "+7(7172)54-26-69",
+    "Website": "www.musei.kz",
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "4",
     "FullName": "ГККП \"Этно-мемориальный комплекс \"Карта Казахстана \"Атамекен\"",
     "City": " Астана",
-    "Microdistrict": "Кургальжинское шоссе",
+    "Street": "Кургальжинское шоссе",
     "Building": "2/1",
     "Geoposition": "51.149298,71.415373",
     "Phone": "+7(7172)24-52-72 ",
     "Website": "www.atameken-map.kz",
-    "Image": "image.jpg"
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "5",
@@ -50,7 +56,8 @@
     "Geoposition": "51.166741,71.419578",
     "Phone": "+7(7172)75-12-96",
     "Website": "presidentsmuseum.kz",
-    "Image": "image.jpg"
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "6",
@@ -61,7 +68,8 @@
     "Geoposition": "51.155879,71.431399",
     "Phone": "+7(7172)44-32-66",
     "Website": "astana@museumgold.kz",
-    "Image": "image.jpg"
+    "Image": "image",
+    "Description": ""
   },
   {
     "ID": "7",
@@ -71,6 +79,8 @@
     "Building": "2",
     "Geoposition": "51.155879,71.431399",
     "Phone": "+7(7172)44-32-65",
-    "Image": "image.jpg"
+    "Website": "astana@museumgold.kz",
+    "Image": "image",
+    "Description": ""
   }
 ]

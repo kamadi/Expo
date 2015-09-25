@@ -33,9 +33,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="#fff"
         app:headerLayout="@layout/drawer_header"
-        app:itemIconTint="@color/colorAccent"
-        app:itemTextColor="@color/colorTextSecondary"
         app:menu="@menu/menu_drawer" />
 
 

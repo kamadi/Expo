@@ -1,0 +1,74 @@
+[
+  {
+    "ID": "1",
+    "FullName": "ГККП \"Дворец \"Жастар\"",
+    "City": "  Астана",
+    "Street": "Республики",
+    "Building": "28",
+    "Geoposition": "51.166922,71.427474",
+    "Phone": "8 (7172)32-80-91",
+    "Image": "image1",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "2",
+    "FullName": "ГККП \"Дворец Независимости\"",
+    "City": "  Астана",
+    "Street": "Тауелсиздик ",
+    "Building": "34",
+    "Geoposition": "51.140240,71.465975",
+    "Phone": "8(7172)70-03-80",
+    "Website": "www.tauelsizdik.kz",
+    "Image": "image1",
+    "Description": ""
+  },
+  {
+    "ID": "3",
+    "FullName": "ГККП \"Дворец Мира и Согласия\"",
+    "City": "  Астана",
+    "Street": "Тауелсиздик ",
+    "Building": "57",
+    "Geoposition": "51.123125,71.463667",
+    "Phone": "8 (7172)74-47-44",
+    "Website": "Piramida.astana@mail.ru",
+    "Image": "image1",
+    "Description": ""
+  },
+  {
+    "ID": "4",
+    "FullName": "ГККП \"Центральный концертный зал \"Казахстан\"",
+    "City": "  Астана",
+    "Street": "Сыганак",
+    "Building": "19",
+    "Geoposition": "51.124261,71.424348",
+    "Phone": "8(7172)70-53-03",
+    "Website": "www.ckzkazakhstan.kz",
+    "Image": "image1",
+    "Description": ""
+  },
+  {
+    "ID": "5",
+    "FullName": "Конгресс-Холл",
+    "City": "  Астана",
+    "Street": " Кенесары",
+    "Building": "32",
+    "Geoposition": "51.163539,71.422048",
+    "Phone": "8(7172)75-22-00",
+    "Image": "image1",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "6",
+    "FullName": "ТОО \"Центр культурно-досуговой деятельности\"",
+    "City": "  Астана",
+    "Street": "Валиханова ",
+    "Building": "4",
+    "Geoposition": "51.159037,71.444578",
+    "Phone": "",
+    "Image": "image1",
+    "Description": "",
+    "Website": ""
+  }
+]

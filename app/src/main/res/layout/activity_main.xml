@@ -29,9 +29,9 @@
                 android:background="@color/colorAccent"
                 app:layout_collapseMode="pin"
                 app:tabIndicatorColor="@color/colorPrimary"
+                app:tabMode="scrollable"
                 app:tabSelectedTextColor="@android:color/white"
                 app:tabTextColor="#EEE"
-                app:tabMode="scrollable"
              />
             <!--</android.support.design.widget.CollapsingToolbarLayout>-->
 
@@ -51,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="#fff"
         app:headerLayout="@layout/drawer_header"
         app:menu="@menu/menu_drawer" />
 

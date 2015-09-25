@@ -4,19 +4,19 @@
 
     <item
         android:id="@+id/event"
-        android:icon="@drawable/ic_business_black_24dp"
+        android:icon="@mipmap/ic_event"
         android:title="@string/event" />
     <item
         android:id="@+id/visit"
-        android:icon="@drawable/ic_business_black_24dp"
+        android:icon="@mipmap/ic_visit"
         android:title="@string/visit" />
     <item
         android:id="@+id/map"
-        android:icon="@drawable/ic_business_black_24dp"
+        android:icon="@mipmap/ic_map"
         android:title="@string/map" />
     <item
         android:id="@+id/guide"
-        android:icon="@drawable/ic_business_black_24dp"
+        android:icon="@mipmap/ic_guide"
         android:title="@string/guide" />
     <item
         android:id="@+id/news"

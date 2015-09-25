@@ -8,8 +8,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 import kz.kamadi.expo.R;
 import kz.kamadi.expo.listener.OnItemClickListener;
+import kz.kamadi.expo.model.Event;
 
 /**
  * Created by Madiyar on 21.09.2015.
@@ -17,9 +20,11 @@ import kz.kamadi.expo.listener.OnItemClickListener;
 public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventRecyclerViewHolder> {
     private LayoutInflater inflater;
     private OnItemClickListener listener;
+    private ArrayList<Event> events;
 
-    public EventAdapter(Context context, OnItemClickListener listener) {
+    public EventAdapter(Context context, OnItemClickListener listener, ArrayList<Event> events) {
         this.listener = listener;
+        this.events = events;
         inflater = LayoutInflater.from(context);
     }
 
@@ -32,19 +37,15 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.EventRecycle
 
     @Override
     public void onBindViewHolder(EventRecyclerViewHolder holder, int position) {
-        holder.titleView.setText("Certified products from campania".toUpperCase());
-        holder.timeView.setText("12-00");
-        if (position % 2 == 0) {
-            holder.coverView.setBackgroundResource(R.drawable.image2);
-        } else {
-            holder.coverView.setBackgroundResource(R.drawable.image);
-        }
-
+        Event event = events.get(position);
+        holder.titleView.setText(event.getTitle().toUpperCase());
+        holder.timeView.setText(event.getTime());
+        holder.coverView.setBackground(event.getBackground());
     }
 
     @Override
     public int getItemCount() {
-        return 10;
+        return events.size();
     }
 
     public static class EventRecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {

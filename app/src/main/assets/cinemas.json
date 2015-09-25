@@ -1,0 +1,79 @@
+[
+  {
+    "ID": "1",
+    "FullName": "Арсенал",
+    "City": "Астана",
+    "Street": "Алтынсарина",
+    "Building": "4",
+    "Geoposition": "51.188198,71.411600",
+    "Phone": "+7(7172)39-33-33, +7(701)520-59-78",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  },
+  {
+    "ID": "2",
+    "FullName": "Азия парк",
+    "City": "Астана",
+    "Street": "Кабанбай батыра ",
+    "Building": "21",
+    "Mall": "ТРЦ \"ASIA PARK\"  ",
+    "Geoposition": "51.128054,71.411645",
+    "Phone": "+7(7172) 97-87-97, бронирование билетов: +7(7172)97-87-95",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  },
+  {
+    "ID": "3",
+    "FullName": "Мегацентр",
+    "City": "Астана",
+    "Street": "Кургальжинское шоссе",
+    "Building": "1",
+    "Mall": "ТРЦ \"Мега Центр Астана\" ",
+    "Geoposition": "51.145252,71.413523",
+    "Phone": "+7(7172)79-09-99",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  },
+  {
+    "ID": "4",
+    "FullName": "Сары Арка",
+    "City": "Астана",
+    "Street": "Туран",
+    "Building": "24",
+    "Mall": " ТЦ \"Сары-арка\"",
+    "Geoposition": "51.138233,71.410765",
+    "Phone": "бронирование билетов: +7(7172)51-60-00, информация по репертуару: +7(7172)79-09-99 ",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  },
+  {
+    "ID": "5",
+    "FullName": "Керуен",
+    "City": "Астана",
+    "Street": "Достык ",
+    "Building": "9",
+    "Mall": "ТЦ \"Керуен\"",
+    "Geoposition": "51.127726,71.425201",
+    "Phone": "+7(7172)79-53-58, +7(7172)79-09-99",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  },
+  {
+    "ID": "6",
+    "FullName": "Хан Шатыр",
+    "City": "Астана",
+    "Avenue": "Туран",
+    "Building": "37",
+    "Mall": "ТРЦ \"Хан Шатыр\"",
+    "Geoposition": "51.132480,71.403677",
+    "Phone": "автоответчик: +7(7172)57-67-67",
+    "Website": "www.kino.kz",
+    "Image": "cinema",
+    "Description": ""
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "Name": "Аптека Центральная № 38",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Республики д.46",
+    "Latitude": 51.177827,
+    "Longitude": 71.424336,
+    "Id": 1
+  },
+  {
+    "Name": "Гиппократ № 01",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Биржан Сала д.3А",
+    "Latitude": 51.192517,
+    "Longitude": 71.4081,
+    "Id": 2
+  },
+  {
+    "Name": "Гиппократ № 02",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, м-н Достык ул. Сауран д.9",
+    "Latitude": 51.116268,
+    "Longitude": 71.417445,
+    "Id": 3
+  },
+  {
+    "Name": "Гиппократ № 03",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, м-н Достык ул. Сауран д.5",
+    "Latitude": 51.121077,
+    "Longitude": 71.419938,
+    "Id": 4
+  },
+  {
+    "Name": "Гиппократ № 04",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Сейфуллина д.63/5",
+    "Latitude": 51.172844,
+    "Longitude": 71.451774,
+    "Id": 5
+  },
+  {
+    "Name": "Гиппократ № 05",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Ташенова д.9",
+    "Latitude": 51.152245,
+    "Longitude": 71.439553,
+    "Id": 6
+  },
+  {
+    "Name": "Гиппократ № 06",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Момышулы д.4",
+    "Latitude": 51.136836,
+    "Longitude": 71.469148,
+    "Id": 7
+  },
+  {
+    "Name": "Гиппократ № 07",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кабанбай батыра д.7/1",
+    "Latitude": 51.127206,
+    "Longitude": 71.410745,
+    "Id": 8
+  },
+  {
+    "Name": "Гиппократ № 08",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кенесары д.80",
+    "Latitude": 51.16231,
+    "Longitude": 71.462546,
+    "Id": 9
+  },
+  {
+    "Name": "Гиппократ № 09",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кажимухана д.4 ВП-4",
+    "Latitude": 51.153085,
+    "Longitude": 71.465266,
+    "Id": 10
+  },
+  {
+    "Name": "Гиппократ № 10",
+    "IsMarkedToDelete": false,
+    "Region": 460,
+    "Address": "г. Есиль ул. Конаева д.8",
+    "Latitude": 51.13143,
+    "Longitude": 71.421878,
+    "Id": 11
+  },
+  {
+    "Name": "Гиппократ № 11",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Абылай хана д.21",
+    "Latitude": 51.156415,
+    "Longitude": 71.483286,
+    "Id": 12
+  },
+  {
+    "Name": "Гиппократ № 12",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул.Шевченко д.4",
+    "Latitude": 51.160358,
+    "Longitude": 71.403047,
+    "Id": 13
+  },
+  {
+    "Name": "Гиппократ № 13",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Құдайбердіұлы д.42",
+    "Latitude": 51.154858,
+    "Longitude": 71.496476,
+    "Id": 14
+  },
+  {
+    "Name": "Гиппократ № 15",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Абая 71",
+    "Latitude": 51.170831,
+    "Longitude": 71.445739,
+    "Id": 15
+  },
+  {
+    "Name": "Гиппократ № 16",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Ыкылас Дукенулы д.31",
+    "Latitude": 51.180372,
+    "Longitude": 71.427262,
+    "Id": 16
+  },
+  {
+    "Name": "Гиппократ № 18",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Брусиловского д.2",
+    "Latitude": 51.16001,
+    "Longitude": 71.455121,
+    "Id": 17
+  },
+  {
+    "Name": "Гиппократ № 19",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кеменгерулы д.8",
+    "Latitude": 51.205233,
+    "Longitude": 71.398151,
+    "Id": 18
+  },
+  {
+    "Name": "Гиппократ № 20",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, п. Коктал-1 ул. Ардагерлер д.14",
+    "Latitude": 51.181199,
+    "Longitude": 71.341829,
+    "Id": 19
+  },
+  {
+    "Name": "Гиппократ № 21",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Республики д.45",
+    "Latitude": 51.175183,
+    "Longitude": 71.423659,
+    "Id": 20
+  },
+  {
+    "Name": "Гиппократ № 22",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Сары-Арка д.31",
+    "Latitude": 51.172702,
+    "Longitude": 71.406649,
+    "Id": 21
+  },
+  {
+    "Name": "Гиппократ № 23",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Абылай хана д.10",
+    "Latitude": 51.15851,
+    "Longitude": 71.474117,
+    "Id": 22
+  },
+  {
+    "Name": "Гиппократ № 24",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Абая 43",
+    "Latitude": 51.169492,
+    "Longitude": 71.440417,
+    "Id": 23
+  },
+  {
+    "Name": "Гиппократ № 25",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул.Богенбай Батыра д.21",
+    "Latitude": 51.175312,
+    "Longitude": 71.401945,
+    "Id": 24
+  },
+  {
+    "Name": "Гиппократ № 26",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Иле д.30 ВП-3",
+    "Latitude": 51.145961,
+    "Longitude": 71.527026,
+    "Id": 25
+  },
+  {
+    "Name": "Гиппократ № 28",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, п. Железнодорожный ул. Маяковского д.2",
+    "Latitude": 51.145806,
+    "Longitude": 71.568346,
+    "Id": 26
+  },
+  {
+    "Name": "Гиппократ № 29",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, Ж. М. Промышленный ул. Шалкоде д.3",
+    "Latitude": 51.122914,
+    "Longitude": 71.520501,
+    "Id": 27
+  },
+  {
+    "Name": "Гиппократ № 30",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Абая д.59",
+    "Latitude": 51.169886,
+    "Longitude": 71.436908,
+    "Id": 28
+  },
+  {
+    "Name": "Гиппократ № 31",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Мирзояна д.21",
+    "Latitude": 51.146237,
+    "Longitude": 71.472938,
+    "Id": 29
+  },
+  {
+    "Name": "Гиппократ № 32",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. 38 д. 4 ЖК Саранда",
+    "Latitude": 51.101619,
+    "Longitude": 71.454493,
+    "Id": 30
+  },
+  {
+    "Name": "Гиппократ № 33",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Конаева д. 8 блок Б",
+    "Latitude": 51.130619,
+    "Longitude": 71.422371,
+    "Id": 31
+  },
+  {
+    "Name": "Гиппократ № 34",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Иманова д. 41",
+    "Latitude": 51.161503,
+    "Longitude": 71.458123,
+    "Id": 32
+  },
+  {
+    "Name": "Гиппократ № 35",
+    "IsMarkedToDelete": false,
+    "Region": 6937,
+    "Address": "г. Караганда, г. Караганда ул. Чкалова д.4",
+    "Latitude": 49.813927,
+    "Longitude": 73.078447,
+    "Id": 33
+  },
+  {
+    "Name": "Гиппократ № 36",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. 103, д.1 (В здании пол-ки №4)",
+    "Latitude": 51.196061,
+    "Longitude": 71.376841,
+    "Id": 34
+  },
+  {
+    "Name": "Гиппократ № 37",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана ,Ж.М.\"Ильинка\" ул. Есет батыра д.18",
+    "Latitude": 51.117469,
+    "Longitude": 71.428171,
+    "Id": 35
+  },
+  {
+    "Name": "Гиппократ № 39",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. 188 д.11",
+    "Latitude": 51.170952,
+    "Longitude": 71.386317,
+    "Id": 36
+  },
+  {
+    "Name": "Гиппократ № 40",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. 188 д.16",
+    "Latitude": 51.171449,
+    "Longitude": 71.384112,
+    "Id": 37
+  },
+  {
+    "Name": "Гиппократ № 41",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Петрова д.14/2",
+    "Latitude": 51.147636,
+    "Longitude": 71.465344,
+    "Id": 38
+  },
+  {
+    "Name": "Гиппократ № 43",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Гете д.10",
+    "Latitude": 51.193846,
+    "Longitude": 71.409612,
+    "Id": 39
+  },
+  {
+    "Name": "Гиппократ № 44",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Абылай хана д.12",
+    "Latitude": 51.158207,
+    "Longitude": 71.474921,
+    "Id": 40
+  },
+  {
+    "Name": "Гиппократ № 45",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Иманова д.2",
+    "Latitude": 51.162485,
+    "Longitude": 71.426153,
+    "Id": 41
+  },
+  {
+    "Name": "Гиппократ № 46",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Мунайтпасова д.10",
+    "Latitude": 51.153022,
+    "Longitude": 71.464789,
+    "Id": 42
+  },
+  {
+    "Name": "Гиппократ № 48",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Валиханова д.27",
+    "Latitude": 51.179407,
+    "Longitude": 71.435353,
+    "Id": 43
+  },
+  {
+    "Name": "Гиппократ № 50",
+    "IsMarkedToDelete": false,
+    "Region": 6937,
+    "Address": "г. Караганда, р-н Казыбек Би, м-н Степной-3,д.8",
+    "Latitude": 49.789802,
+    "Longitude": 73.152565,
+    "Id": 44
+  },
+  {
+    "Name": "Гиппократ № 51",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. 187 д.23/2",
+    "Latitude": 51.169213,
+    "Longitude": 71.390426,
+    "Id": 45
+  },
+  {
+    "Name": "Гиппократ № 52",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, пр. Республики д.79",
+    "Latitude": 51.185621,
+    "Longitude": 71.421009,
+    "Id": 46
+  },
+  {
+    "Name": "Гиппократ № 53",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Култобе д.16",
+    "Latitude": 51.174647,
+    "Longitude": 71.451473,
+    "Id": 47
+  },
+  {
+    "Name": "Гиппократ № 54",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, Ж.К. Жагалау-3, ул 199 д.36, ВП-1, блок 15",
+    "Latitude": 51.13734,
+    "Longitude": 71.364946,
+    "Id": 48
+  },
+  {
+    "Name": "Гиппократ № 57",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Асан Кайгы 8 ВП-8",
+    "Latitude": 51.166236,
+    "Longitude": 71.445356,
+    "Id": 49
+  },
+  {
+    "Name": "Гиппократ № 59",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Московская 29 ВП-7",
+    "Latitude": 51.18174,
+    "Longitude": 71.407172,
+    "Id": 50
+  },
+  {
+    "Name": "Гиппократ № 60",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Желтоксан 17",
+    "Latitude": 51.169492,
+    "Longitude": 71.414951,
+    "Id": 51
+  },
+  {
+    "Name": "Гиппократ № 61",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кенесары 69 ВП-10",
+    "Latitude": 51.168106,
+    "Longitude": 71.445774,
+    "Id": 52
+  },
+  {
+    "Name": "Гиппократ № 62",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Есенберлина 18",
+    "Latitude": 51.18951,
+    "Longitude": 71.411964,
+    "Id": 53
+  },
+  {
+    "Name": "Гиппократ № 63",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Сейфуллина 24",
+    "Latitude": 51.170148,
+    "Longitude": 71.416388,
+    "Id": 54
+  },
+  {
+    "Name": "Гиппократ № 64",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Кенесары 16",
+    "Latitude": 51.163743,
+    "Longitude": 71.414993,
+    "Id": 55
+  },
+  {
+    "Name": "Гиппократ № 65",
+    "IsMarkedToDelete": false,
+    "Region": 17108,
+    "Address": "г. Астана, ул. Амман 14",
+    "Latitude": 51.199084,
+    "Longitude": 71.445263,
+    "Id": 56
+  }
+]
+

@@ -44,5 +44,7 @@
     <string name="about">О нас</string>
     <string name="title_activity_museum_info">MuseumInfoActivity</string>
     <string name="title_activity_even_info">EvenInfoActivity</string>
+    <string name="title_activity_pharmasy">PharmasyActivity</string>
+    <string name="animation">Animation</string>
 
 </resources>

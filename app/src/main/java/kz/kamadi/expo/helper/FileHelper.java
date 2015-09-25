@@ -22,7 +22,14 @@ import java.io.InputStreamReader;
 public class FileHelper {
 
 
-    public static final String MUSEUM = "museum";
+    public static final String MUSEUM = "museum.json";
+    public static final String THEATER = "theaters.json";
+    public static final String CINEMA = "cinemas.json";
+    public static final String CLUB = "clubs.json";
+    public static final String PHARMACY = "pharmacy.json";
+    public static final String HOSPITAL = "hospitals.json";
+    public static final String EVENT = "events.json";
+
     private static String path = Environment.getExternalStorageDirectory() + "/Expo/";
 
     public static Boolean write(String fname, String fcontent) {
@@ -87,7 +94,7 @@ public class FileHelper {
 
     }
 
-    public String ReadFromfile(String fileName, Context context) {
+    public static String ReadFromfile(String fileName, Context context) {
         StringBuilder returnString = new StringBuilder();
         InputStream fIn = null;
         InputStreamReader isr = null;

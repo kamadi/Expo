@@ -2,8 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="256dp"
-    android:background="@drawable/expo"
     android:alpha="0.8"
+    android:background="@drawable/logo_expo"
     android:orientation="vertical">
 
 </FrameLayout>

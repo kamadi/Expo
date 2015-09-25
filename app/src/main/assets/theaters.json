@@ -1,0 +1,87 @@
+[
+  {
+    "ID": "1",
+    "FullName": "ГККП \"Государственный академический казахский музыкально-драматический театр им. К.Куанышбаева\"",
+    "City": "  Астана",
+    "Street": "  Омарова ",
+    "Building": "47б",
+    "Phone": "+7(7172) 32-35-12,   +7(7172) 32-36-01",
+    "Website": " www.kazteatr.kz",
+    "Geoposition": "51.168825,71.417314",
+    "Image": "image",
+    "Description": ""
+  },
+  {
+    "ID": "2",
+    "FullName": "ГККП \"Государственный академический русский театр драмы им. М.Горького\"",
+    "City": "  Астана",
+    "Street": "  Желтоксан",
+    "Building": "11-13",
+    "Phone": "+7(7172) 32-40-53",
+    "Website": "www.grdt.kz",
+    "Geoposition": "51.165115,71.416254",
+    "Image": "image",
+    "Description": ""
+  },
+  {
+    "ID": "3",
+    "FullName": "ГККП \"Жастар театр\"",
+    "City": " Астана ",
+    "Street": "Б.Момышулы",
+    "Building": "5",
+    "Phone": "+7(7172) 70-12-18",
+    "Geoposition": "51.146037,71.496033",
+    "Image": "image",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "4",
+    "FullName": "ГККП \"Театр кукол\"",
+    "City": " Астана",
+    "Phone": "+7(7172) 37-60-07",
+    "Geoposition": "51.159037,71.444578",
+    "Street": "Б.Момышулы",
+    "Building": "5",
+    "Image": "image",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "5",
+    "FullName": "ГККП \"Государственный театр танца \"Наз\"",
+    "City": " Астана  ",
+    "Street": "  Алмалык",
+    "microdistrict": "Коктал ",
+    "Building": " 1",
+    "Phone": "+7(7172) 30-02-87",
+    "Geoposition": "51.180515,71.338118",
+    "Image": "image",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "6",
+    "FullName": "ГККП \"Көңілді тапқырлар театры\" ",
+    "City": " Астана ",
+    "Street": "Республики",
+    "Building": "28",
+    "Phone": "+7(7172) 32-15-47",
+    "Geoposition": "51.166922,71.427474",
+    "Image": "image",
+    "Description": "",
+    "Website": ""
+  },
+  {
+    "ID": "7",
+    "FullName": "Государственный театр оперы и балета \"Астана Опера\"",
+    "City": " Астана  ",
+    "Street": "  Конаева",
+    "Building": "1",
+    "Phone": "+7(7172) 70-96-10",
+    "Website": "www.astanaopera.kz",
+    "Geoposition": "51.131176,71.418473",
+    "Image": "image",
+    "Description": ""
+  }
+]

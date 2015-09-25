@@ -39,14 +39,20 @@
             android:name=".MapsActivity"
             android:label="@string/map" />
         <activity
-            android:name=".activity.MuseumActivity"
+            android:name=".activity.ItemActivity"
             android:label="@string/museums" />
         <activity
-            android:name=".activity.MuseumInfoActivity"
+            android:name=".activity.ItemInfoActivity"
             android:label="@string/title_activity_museum_info" />
         <activity
             android:name=".activity.EvenInfoActivity"
-            android:label="@string/title_activity_even_info">
+            android:label="@string/title_activity_even_info"></activity>
+        <activity
+            android:name=".activity.PharmacyActivity"
+            android:label="@string/pharmacies"></activity>
+        <activity
+            android:name=".activity.HospitalActivity"
+            android:label="@string/hospital">
         </activity>
     </application>
 
