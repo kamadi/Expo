@@ -1,5 +1,6 @@
 package kz.kamadi.expo.fragment;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import kz.kamadi.expo.R;
+import kz.kamadi.expo.activity.EmergencyActivity;
 import kz.kamadi.expo.activity.HospitalActivity;
 import kz.kamadi.expo.activity.ItemActivity;
 import kz.kamadi.expo.activity.PharmacyActivity;
@@ -64,4 +66,11 @@ public class GuideFragment extends Fragment {
     void getHospital() {
         startActivity(new Intent(getActivity(), HospitalActivity.class));
     }
+
+    @OnClick(R.id.emergency)
+    void getEmergency(){
+        startActivity(new Intent(getActivity(), EmergencyActivity.class));
+    }
+
+
 }

@@ -1,9 +1,10 @@
 package kz.kamadi.expo.activity;
 
-import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -11,9 +12,9 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import kz.kamadi.expo.R;
-import kz.kamadi.expo.model.Event;
+import kz.kamadi.expo.model.Visit;
 
-public class EvenInfoActivity extends AppCompatActivity {
+public class VisitActivity extends AppCompatActivity {
     @Bind(R.id.collapse_toolbar)
     CollapsingToolbarLayout mCollapsingToolbarLayout;
 
@@ -23,33 +24,26 @@ public class EvenInfoActivity extends AppCompatActivity {
     @Bind(R.id.description)
     TextView description;
 
-    @Bind(R.id.time)
-    TextView time;
-
-    @Bind(R.id.address)
-    TextView address;
-
     @Bind(R.id.header)
     ImageView header;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_info);
+        setContentView(R.layout.activity_visit);
         ButterKnife.bind(this);
 
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
-
         int position = getIntent().getIntExtra("position",0);
-        Event event = Event.getEvents(this).get(position);
-        header.setBackground(event.getBackground());
-        description.setText(event.getDescription());
-        address.setText(event.getAddress());
-        time.setText(event.getTime());
-        mCollapsingToolbarLayout.setTitle(event.getTitle());
+        Visit visit = Visit.getVisits(this).get(position);
+        description.setText(visit.getDescription());
+        header.setBackground(visit.getImage());
+//        mCollapsingToolbarLayout.setTitle(visit.getName());
+        getSupportActionBar().setTitle(visit.getName());
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {

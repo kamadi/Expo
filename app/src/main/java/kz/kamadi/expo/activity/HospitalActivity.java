@@ -83,8 +83,7 @@ public class HospitalActivity extends AppCompatActivity implements GoogleMap.OnM
             mMap.addMarker(new MarkerOptions()
                     .position(new LatLng(hospital.getLatitude(), hospital.getLongitude()))
                     .title(hospital.getFullName())
-                    .snippet(hospital.getPhone())
-                    .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_hospital)));
+                    .snippet(hospital.getPhone()));
         }
 
     }

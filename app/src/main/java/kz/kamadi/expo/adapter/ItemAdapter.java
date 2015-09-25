@@ -44,7 +44,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemRecyclerVi
     public void onBindViewHolder(ItemRecyclerViewHolder itemRecyclerViewHolder, int i) {
         Item item = items.get(i);
         itemRecyclerViewHolder.title.setText(item.getFullName());
-        itemRecyclerViewHolder.description.setText(item.getDescription());
 
 
         itemRecyclerViewHolder.thumbnail.setImageDrawable(item.getImage());
@@ -70,8 +69,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemRecyclerVi
         @Bind(R.id.title)
         TextView title;
 
-        @Bind(R.id.description)
-        TextView description;
 
         @Bind(R.id.thumbnail)
         ImageView thumbnail;
@@ -80,7 +77,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemRecyclerVi
             super(itemView);
             ButterKnife.bind(this, itemView);
             this.listener = listener;
-//            title.setOnClickListener(this);
+            title.setOnClickListener(this);
 //            description.setOnClickListener(this);
             thumbnail.setOnClickListener(this);
         }

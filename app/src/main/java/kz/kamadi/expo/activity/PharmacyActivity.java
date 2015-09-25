@@ -80,8 +80,7 @@ public class PharmacyActivity extends AppCompatActivity implements GoogleMap.OnM
             mMap.addMarker(new MarkerOptions()
                     .position(new LatLng(pharmacy.getLatitude(), pharmacy.getLongitude()))
                     .title(pharmacy.getName())
-                    .snippet(pharmacy.getAddress())
-                    .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_pharmacy)));
+                    .snippet(pharmacy.getAddress()));
         }
 
     }

@@ -26,11 +26,20 @@ public class Event {
 
     private String description;
 
-    public Event(String time, String title, Drawable background, String description) {
+    private String address;
+
+    private double longitude;
+
+    private double latitude;
+
+    public Event(String time, String title, Drawable background, String description, String address, double longitude, double latitude) {
         this.time = time;
         this.title = title;
         this.background = background;
         this.description = description;
+        this.address = address;
+        this.longitude = longitude;
+        this.latitude = latitude;
     }
 
     public static ArrayList<Event> getEvents(Context context) {
@@ -49,7 +58,8 @@ public class Event {
                         context.getPackageName());
                 Drawable drawable = ContextCompat.getDrawable(context, resourceId);
                 event = new Event(jsonObject.getString("time"), jsonObject.getString("title")
-                        , drawable, jsonObject.getString("description"));
+                        , drawable, jsonObject.getString("description"), jsonObject.getString("address"),
+                        jsonObject.getDouble("longitude"),jsonObject.getDouble("latitude"));
                 events.add(event);
             }
         } catch (JSONException e) {
@@ -74,4 +84,15 @@ public class Event {
         return description;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
 }

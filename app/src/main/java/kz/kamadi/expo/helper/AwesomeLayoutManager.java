@@ -25,7 +25,7 @@ public class AwesomeLayoutManager extends RecyclerView.LayoutManager {
     private static final long TRANSITION_DURATION_MS = 300;
     private static final String TAG = "AwesomeLayoutManager";
     private static final float SCALE_THRESHOLD_PERCENT = 0.66f;
-    private static final float ITEM_HEIGHT_PERCENT = 0.75f;
+    private static final float ITEM_HEIGHT_PERCENT = 0.55f;
     private SparseArray<View> viewCache = new SparseArray<>();
     private Orientation orientation = Orientation.VERTICAL;
     private int mAnchorPos;

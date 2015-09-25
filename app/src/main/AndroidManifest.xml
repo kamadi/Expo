@@ -12,7 +12,7 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -46,13 +46,21 @@
             android:label="@string/title_activity_museum_info" />
         <activity
             android:name=".activity.EvenInfoActivity"
-            android:label="@string/title_activity_even_info"></activity>
+            android:label="@string/title_activity_even_info" />
         <activity
             android:name=".activity.PharmacyActivity"
-            android:label="@string/pharmacies"></activity>
+            android:label="@string/pharmacies" />
         <activity
             android:name=".activity.HospitalActivity"
-            android:label="@string/hospital">
+            android:label="@string/hospital" >
+        </activity>
+        <activity
+            android:name=".activity.EmergencyActivity"
+            android:label="@string/emergency" >
+        </activity>
+        <activity
+            android:name=".activity.VisitActivity"
+            android:label="@string/title_activity_visit" >
         </activity>
     </application>
 

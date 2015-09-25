@@ -8,54 +8,64 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 import kz.kamadi.expo.R;
+import kz.kamadi.expo.model.Visit;
 
 /**
  * Created by Madiyar on 21.09.2015.
  */
 public class VisitAdapter extends RecyclerView.Adapter<VisitAdapter.VisitRecyclerViewHolder> {
     private LayoutInflater inflater;
+    private ArrayList<Visit> visits;
+    private ItemAdapter.OnItemClickListener listener;
 
-    public VisitAdapter(Context context) {
+    public VisitAdapter(Context context, ArrayList<Visit> visits, ItemAdapter.OnItemClickListener listener) {
+        this.visits = visits;
+        this.listener = listener;
         inflater = LayoutInflater.from(context);
     }
 
     @Override
     public VisitRecyclerViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View root = inflater.inflate(R.layout.list_item_visit, parent, false);
-        VisitRecyclerViewHolder holder = new VisitRecyclerViewHolder(root);
+        VisitRecyclerViewHolder holder = new VisitRecyclerViewHolder(root, listener);
         return holder;
     }
 
     @Override
     public void onBindViewHolder(VisitRecyclerViewHolder holder, int position) {
-        holder.titleView.setText("Visit");
-
-        holder.timeView.setText("12-00");
-        if(position%2==0){
-            holder.coverView.setBackgroundResource(R.drawable.image2);
-        }else{
-            holder.coverView.setBackgroundResource(R.drawable.image);
-        }
+        Visit visit = visits.get(position);
+        holder.titleView.setText(visit.getName());
+        holder.coverView.setBackground(visit.getImage());
 
     }
 
     @Override
     public int getItemCount() {
-        return 10;
+        return visits.size();
     }
 
-    public static class VisitRecyclerViewHolder extends RecyclerView.ViewHolder {
+    public static class VisitRecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView titleView;
-        TextView timeView;
         ImageView coverView;
-        public VisitRecyclerViewHolder(View itemView) {
-            super(itemView);
-            titleView = (TextView) itemView.findViewById(R.id.title);
-            timeView = (TextView) itemView.findViewById(R.id.time);
-            coverView = (ImageView) itemView.findViewById(R.id.cover_iv);
 
+        private ItemAdapter.OnItemClickListener listener;
+
+        public VisitRecyclerViewHolder(View itemView, ItemAdapter.OnItemClickListener listener) {
+            super(itemView);
+            this.listener = listener;
+            titleView = (TextView) itemView.findViewById(R.id.title);
+            coverView = (ImageView) itemView.findViewById(R.id.cover_iv);
+            titleView.setOnClickListener(this);
+            coverView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            listener.onItemClick(v,getAdapterPosition());
         }
     }
 }

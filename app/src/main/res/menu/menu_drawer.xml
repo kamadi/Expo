@@ -18,14 +18,4 @@
         android:id="@+id/guide"
         android:icon="@mipmap/ic_guide"
         android:title="@string/guide" />
-    <item
-        android:id="@+id/news"
-        android:icon="@drawable/ic_business_black_24dp"
-        android:title="@string/news" />
-
-    <item
-        android:id="@+id/about"
-        android:icon="@drawable/ic_business_black_24dp"
-        android:title="@string/about" />
-
 </menu>

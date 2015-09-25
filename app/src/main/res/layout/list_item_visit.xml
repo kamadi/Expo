@@ -25,21 +25,11 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:textColor="@color/white_text"
             android:textSize="@dimen/grid_movie_title_font_size"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/white_text"
-            android:textSize="@dimen/grid_movie_director_font_size"
-            android:textStyle="italic" />
-
 
     </LinearLayout>
 </FrameLayout>

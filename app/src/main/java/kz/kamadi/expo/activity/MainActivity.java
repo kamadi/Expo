@@ -90,10 +90,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 hideDrawer();
                 return true;
 
-            case R.id.news:
-                return true;
-            case R.id.about:
-                return true;
         }
         return false;
     }

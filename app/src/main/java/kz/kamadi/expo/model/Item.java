@@ -97,17 +97,13 @@ public class Item {
     public String getCurrentTitle(Context context) {
         switch (currentItem) {
             case Item.MUSEUM:
-                context.getString(R.string.museums);
-                break;
+                return context.getString(R.string.museums);
             case Item.THEATER:
-                context.getString(R.string.theaters);
-                break;
+                return context.getString(R.string.theaters);
             case Item.CINEMA:
-                context.getString(R.string.cinemas);
-                break;
+                return context.getString(R.string.cinemas);
             case Item.CLUB:
-                context.getString(R.string.clubs);
-                break;
+                return context.getString(R.string.clubs);
         }
 
         return "";

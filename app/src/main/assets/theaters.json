@@ -8,7 +8,7 @@
     "Phone": "+7(7172) 32-35-12,   +7(7172) 32-36-01",
     "Website": " www.kazteatr.kz",
     "Geoposition": "51.168825,71.417314",
-    "Image": "image",
+    "Image": "theater",
     "Description": ""
   },
   {
@@ -20,7 +20,7 @@
     "Phone": "+7(7172) 32-40-53",
     "Website": "www.grdt.kz",
     "Geoposition": "51.165115,71.416254",
-    "Image": "image",
+    "Image": "theater",
     "Description": ""
   },
   {
@@ -31,7 +31,7 @@
     "Building": "5",
     "Phone": "+7(7172) 70-12-18",
     "Geoposition": "51.146037,71.496033",
-    "Image": "image",
+    "Image": "theater",
     "Description": "",
     "Website": ""
   },
@@ -43,7 +43,7 @@
     "Geoposition": "51.159037,71.444578",
     "Street": "Б.Момышулы",
     "Building": "5",
-    "Image": "image",
+    "Image": "theater",
     "Description": "",
     "Website": ""
   },
@@ -56,7 +56,7 @@
     "Building": " 1",
     "Phone": "+7(7172) 30-02-87",
     "Geoposition": "51.180515,71.338118",
-    "Image": "image",
+    "Image": "theater",
     "Description": "",
     "Website": ""
   },
@@ -68,7 +68,7 @@
     "Building": "28",
     "Phone": "+7(7172) 32-15-47",
     "Geoposition": "51.166922,71.427474",
-    "Image": "image",
+    "Image": "theater",
     "Description": "",
     "Website": ""
   },
@@ -81,7 +81,7 @@
     "Phone": "+7(7172) 70-96-10",
     "Website": "www.astanaopera.kz",
     "Geoposition": "51.131176,71.418473",
-    "Image": "image",
+    "Image": "theater",
     "Description": ""
   }
 ]

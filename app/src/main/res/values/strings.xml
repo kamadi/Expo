@@ -46,5 +46,11 @@
     <string name="title_activity_even_info">EvenInfoActivity</string>
     <string name="title_activity_pharmasy">PharmasyActivity</string>
     <string name="animation">Animation</string>
+    <string name="title_activity_emergency">EmergencyActivity</string>
+    <string name="emergency">Экстренные вызовы</string>
+    <string name="title_activity_visit">VisitActivity</string>
+    <string name="police">Полиция (+7(7172) 102)</string>
+    <string name="medicine">Скорая помощь (+7(7172) 103)</string>
+    <string name="fire">Пожарная служба (+7(7172) 10)</string>
 
 </resources>

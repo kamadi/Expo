@@ -29,6 +29,7 @@ public class FileHelper {
     public static final String PHARMACY = "pharmacy.json";
     public static final String HOSPITAL = "hospitals.json";
     public static final String EVENT = "events.json";
+    public static final String VISIT = "visit.json";
 
     private static String path = Environment.getExternalStorageDirectory() + "/Expo/";
 

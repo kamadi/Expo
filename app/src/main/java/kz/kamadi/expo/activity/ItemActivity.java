@@ -27,6 +27,7 @@ import kz.kamadi.expo.model.Item;
 public class ItemActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, ItemAdapter.OnItemClickListener {
 
     private static final String LOG_TAG = "ItemActivity";
+
     @Bind(R.id.app_bar)
     Toolbar mToolbar;
 
@@ -59,14 +60,14 @@ public class ItemActivity extends AppCompatActivity implements NavigationView.On
         mDrawerLayout.setDrawerListener(mDrawerToggle);
         mDrawerToggle.syncState();
         initRecyclerView();
-        mToolbar.setTitle(Item.getInstance().getCurrentTitle(this));
+        getSupportActionBar().setTitle(Item.getInstance().getCurrentTitle(this));
     }
 
     private void initRecyclerView() {
         ArrayList<Item> items = Item.getInstance().getItems(this);
         recyclerView.setAdapter(new ItemAdapter(this, items, this));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.addItemDecoration(new SimpleDividerItemDecoration(this));
+//        recyclerView.addItemDecoration(new SimpleDividerItemDecoration(this));
     }
 
 
@@ -94,12 +95,6 @@ public class ItemActivity extends AppCompatActivity implements NavigationView.On
                 intent.putExtra("tab", 3);
                 startActivity(intent);
                 break;
-
-            case R.id.news:
-                break;
-
-            case R.id.about:
-                break;
         }
         return false;
     }
@@ -110,11 +105,6 @@ public class ItemActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = new Intent(this, ItemInfoActivity.class);
         intent.putExtra("position", position);
         startActivity(intent);
-
-        String transitionName = getString(R.string.animation);
-
-        ActivityOptions transitionActivityOptions = ActivityOptions.makeSceneTransitionAnimation(this, view, transitionName);
-        startActivity(intent, transitionActivityOptions.toBundle());
     }
 
 

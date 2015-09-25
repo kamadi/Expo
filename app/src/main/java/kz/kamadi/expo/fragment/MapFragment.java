@@ -1,5 +1,6 @@
 package kz.kamadi.expo.fragment;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -14,6 +15,10 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polygon;
+import com.google.android.gms.maps.model.PolygonOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 
 import kz.kamadi.expo.R;
 
@@ -43,25 +48,23 @@ public class MapFragment extends Fragment {
         }
 
         googleMap = mMapView.getMap();
-        // latitude and longitude
-        double latitude = 17.385044;
-        double longitude = 78.486671;
 
-        // create marker
-        MarkerOptions marker = new MarkerOptions().position(
-                new LatLng(latitude, longitude)).title("Hello Maps");
-
-        // Changing marker icon
-        marker.icon(BitmapDescriptorFactory
-                .defaultMarker(BitmapDescriptorFactory.HUE_ROSE));
-
-        // adding marker
-        googleMap.addMarker(marker);
         CameraPosition cameraPosition = new CameraPosition.Builder()
-                .target(new LatLng(17.385044, 78.486671)).zoom(12).build();
+                .target(new LatLng(51.089314, 71.415983)).zoom(12).build();
         googleMap.animateCamera(CameraUpdateFactory
                 .newCameraPosition(cameraPosition));
 
+        PolygonOptions rectOptions = new PolygonOptions()
+                .add(new LatLng(51.098324, 71.405787))
+                .add(new LatLng(51.095565, 71.426768))  // North of the previous point, but at the same longitude
+                .add(new LatLng(51.083553, 71.422331))  // Same latitude, and 30km to the west
+                .add(new LatLng(51.086393, 71.401484))
+                .add(new LatLng(51.098324, 71.405787))
+                .strokeColor(Color.RED)
+                .fillColor(Color.argb(50, 239, 108, 0));
+
+// Get back the mutable Polyline
+        Polygon polygon = googleMap.addPolygon(rectOptions);
         // Perform any camera updates here
         return v;
     }
